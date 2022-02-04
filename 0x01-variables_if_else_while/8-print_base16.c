@@ -9,13 +9,13 @@ int main(void)
 	char ch;
 	int in;
 
+	for (in = 1; in <= 9 ; in++)
+	{
+		putchar(in + '0');
+	}
 	for (ch = 'a'; ch <= 'f' ; ch++)
 	{
 		putchar(ch);
-	}
-	for (in = 0; in <= 9 ; in++)
-	{
-		putchar(in);
 	}
 	putchar('\n');
 	return (0);
