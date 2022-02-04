@@ -2,14 +2,14 @@
 /**
  *  *main - Muestra el abecedario
  *   *Return: Always 0
- *    */
+ */
 
 int main(void)
 {
-	        char ch;
+		char ch;
 		char CH;
 
-	        for (ch = 'a'; ch <= 'z' ; ch++)
+		for (ch = 'a'; ch <= 'z' ; ch++)
 		{
 			putchar(ch);
 		}
