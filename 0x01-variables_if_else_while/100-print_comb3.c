@@ -8,14 +8,14 @@ int main(void)
 {
 	int numUno, numDos;
 
-	for (numUno = 0; numUno < 10; numUno++)
+	for (numUno = 0; numUno < 9; numUno++)
 	{
-		for (numDos = 0; numDos < 10; numDos++)
+		for (numDos = numUno + 1; numDos < 10; numDos++)
 		{
 			putchar((numUno % 10) + '0');
 			putchar((numDos % 10) + '0');
 
-			if (numUno == 9 && numDos == 9)
+			if (numUno == 8 && numDos == 9)
 				continue;
 
 			putchar(',');
