@@ -17,8 +17,9 @@ int main(void)
 
 			if (numUno == 9 && numDos == 9)
 				continue;
-				putchar(',');
-				putchar(' ');
+
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
