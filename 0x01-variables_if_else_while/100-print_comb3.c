@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main - Imprime las combinaciones posibles entre 1 y 0 con espacios y comas
+*main - Print the possible combinations between 1 and 0 with spaces and commas
 *Return: Always 0
 */
 
