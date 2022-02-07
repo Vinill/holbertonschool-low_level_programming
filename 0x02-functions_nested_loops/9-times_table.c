@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- *jack_bauer - Devuelve el ultimo digito de n
- *
- *Return: Table 9
+ *times_table - Devuelve el ultimo digito de n
  */
 void times_table(void)
 {
@@ -33,7 +31,7 @@ void times_table(void)
 				_putchar('0' + (num / 10));
 				_putchar('0' + (num % 10));
 			}
-			return ('\n');
+			_putchar('\n');
 		}
 	}
 }
