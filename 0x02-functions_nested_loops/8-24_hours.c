@@ -5,7 +5,7 @@
  * Return: Num
  */
 
-void jack_bauer(void)
+void jack_bauer(voidi)
 {
 	int hrs = 0;
 	int min = 0;
@@ -19,7 +19,6 @@ void jack_bauer(void)
 			_putchar (':');
 			_putchar ('0' + (min / 10));
 			_putchar ('0' + (min % 10));
-			_putchar (':');
 			_putchar ('\n');
 			min++;
 		}
