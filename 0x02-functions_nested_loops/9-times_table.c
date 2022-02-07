@@ -7,7 +7,7 @@
 void times_table(void)
 {
 	int line;
-	int column
+	int column;
 	int num;
 
 	for (line = 0; line <= 9; line++)
@@ -18,7 +18,7 @@ void times_table(void)
 			{
 				_putchar(' ');
 				_putchar(',');
-				_putchar(num + '0')
+				_putchar(num + '0');
 			}
 			else if (column <= 9)
 			{
@@ -29,7 +29,7 @@ void times_table(void)
 			else if (num > 9)
 			{
 				_putchar(' ');	
-				_putc
+				_putchar(',');
 				_putchar('0' + (num / 10));
 				_putchar('0' + (num % 10));
 			}
