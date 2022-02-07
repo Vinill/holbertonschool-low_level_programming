@@ -13,7 +13,9 @@ void times_table(void)
 	for (line = 0; line <= 9; line++)
 	{
 		for (column = 0; column <= 9; column++)
+		{
 			num = (line * column);
+
 			if (column == 0)
 			{
 				_putchar(num + '0');
@@ -32,5 +34,6 @@ void times_table(void)
 				_putchar('0' + (num % 10));
 			}
 			return ('\n');
+		}
 	}
 }
