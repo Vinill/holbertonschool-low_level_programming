@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * _sign - Devuelve 0 o 1 si es minuscula
+ *print_sign - Devuelve 0 o 1 si es minuscula
  *
  * @n: Is var
  *
  * Return: si es minuscula retorna 0 sino 1
  */
 
-int _sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
