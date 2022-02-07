@@ -7,8 +7,8 @@ nclude "main.h"
 
 void jack_bauer(void);
 {
-	int hrs;
-	int min;
+	int hrs = 0;
+	int min = 0;
 
 	while (hrs < 24)
 	{
