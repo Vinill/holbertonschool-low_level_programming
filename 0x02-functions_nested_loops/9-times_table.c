@@ -16,8 +16,6 @@ void times_table(void)
 			num = (line * column);
 			if (column == 0)
 			{
-				_putchar(' ');
-				_putchar(',');
 				_putchar(num + '0');
 			}
 			else if (column <= 9)
