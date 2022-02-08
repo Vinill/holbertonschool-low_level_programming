@@ -1,7 +1,9 @@
 #include "main.h"
+
 /**
  *times_table - Devuelve el ultimo digito de n
  */
+
 void times_table(void)
 {
 	int line;
@@ -16,22 +18,24 @@ void times_table(void)
 
 			if (column == 0)
 			{
-				_putchar(num + '0');
+				_putchar('0' + num);
 			}
-			else if (column <= 9)
+			else if (num <= 9)
 			{
-				_putchar(' ');
 				_putchar(',');
-				_putchar(num + '0');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar('0' + num);
 			}
 			else if (num > 9)
 			{
-				_putchar(' ');
 				_putchar(',');
+				_putchar(' ');
 				_putchar('0' + (num / 10));
 				_putchar('0' + (num % 10));
 			}
-			_putchar('\n');
 		}
+			_putchar('\n');
+
 	}
 }
