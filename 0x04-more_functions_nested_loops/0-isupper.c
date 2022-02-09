@@ -3,8 +3,8 @@
 /**
  *_isupper - Print
  *@c: Is a variable
- *Return: Isupper
- */
+ *Return: 1 y 0
+ **/
 
 int _isupper(int c)
 {
