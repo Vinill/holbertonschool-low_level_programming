@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *mult - Multiplica
+ *mul - Multiplica
  *
  *@a: Number 1
  *@b: Number 2
