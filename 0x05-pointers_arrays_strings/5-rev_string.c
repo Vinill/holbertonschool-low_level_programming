@@ -24,7 +24,7 @@ int funtion(char *s)
 }
 
 /**
- *funtion - Recorre los caracteres
+ *rev_string - Recorre los caracteres
  *
  *@s: A var
  *
