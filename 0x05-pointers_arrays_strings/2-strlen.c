@@ -5,6 +5,7 @@
  *
  * @s: Is a punterr
  *
+ * Return: print the lon value
  */
 
 int _strlen(char *s)
