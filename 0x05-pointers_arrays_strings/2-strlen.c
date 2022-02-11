@@ -3,7 +3,7 @@
 /**
  * _strlen - Is a punter
  *
- * @a: Is a punterr
+ * @s: Is a punterr
  *
  */
 
