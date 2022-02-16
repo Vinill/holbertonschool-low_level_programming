@@ -6,11 +6,13 @@
  *@dest: String "Hello"
  *
  *@src: String "World"
+ *
+ * Return: Return this code
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int idx_dest , idx_src;
+	int idx_dest, idx_src;
 
 	for (idx_dest = 0; dest[idx_dest] != '\0';)
 		idx_dest++;
@@ -20,5 +22,6 @@ char *_strcat(char *dest, char *src)
 		dest[idx_src + idx_dest] = src[idx_src];
 	}
 	dest[idx_src + idx_dest] = '\0';
+
 	return (dest);
 }
