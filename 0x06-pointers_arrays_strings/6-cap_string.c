@@ -5,27 +5,26 @@
  * @n: Puntero
  * Return: Return n
  */
-char *cap_string(char *n)
+char *cap_string(char *str)
 {
 	int i = 0;
-
-	if (n[i] > 96 && n[i] < 123)
-		n[i] = n[i] - 2;
+	if (str[i] > 96 && str[i] < 123)
+		str[i] = str[i] - 32;
 	{
-		while (n[i] != '\0')
+		while (str[i] != '\0')
 		{
-			if (n[i] == ',' || n[i] == ';' || n[i] == '.' || n[i] == '!'
-			|| n[i] == '?' || n[i] == '"' || n[i] == '(' || n[i] == ')'
-			|| n[i] == '{' || n[i] == '}' || n[i] == '\t' || n[i] == '\n'
-			|| n[i] == ' ')
+			if (str[i] == ',' || str[i] == ';' || str[i] == '.' || str[i] == '!'
+			|| str[i] == '?' || str[i] == '"' || str[i] == '(' || str[i] == ')'
+			|| str[i] == '{' || str[i] == '}' || str[i] == '\t' || str[i] == '\n'
+			|| str[i] == ' ')
 			{
-				if (n[i + 1] >= 'a' && n[i + 1] <= 'z')
+				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 				{
-					n[i + 1] = n[i + 1] - 'a' + 'A'; /* n[i + 1] = n[i + 1] - 32; */
+					str[i + 1] = str[i + 1] - 'a' + 'A'; /* str[i + 1] = str[i + 1] - 32; */
 				}
 			}
 			i++;
 		}
 	}
-	return (n);
+	return (str);
 }
