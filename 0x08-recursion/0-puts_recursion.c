@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * @s: Is a pointer
+ *@s: Is a pointer of putas funcion
  *
  * _puts_recursion - Funcion that print a string
  *
