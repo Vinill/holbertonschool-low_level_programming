@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- *@s: Is a pointer of putas funcion
- *
  * _puts_recursion - Funcion that print a string
  *
+ * @s: Is a pointer
  */
 void _puts_recursion(char *s)
 {
@@ -13,7 +12,5 @@ void _puts_recursion(char *s)
 		_putchar(*s);
 		_puts_recursion(s + 1);
 	}
-	else
-
 	_putchar('\n');
 }
