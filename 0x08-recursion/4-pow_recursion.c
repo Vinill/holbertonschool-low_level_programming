@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- *factorial - Funcion that return the factorial num
+ *_pow_recursion - Funcion that return the factorial num
  *
- *@n : Its a variable
+ *@x: a variable
  *
- *Return: 1 is < a 0
+ *@y: a variable
+ *
+ *Return: num
  */
 
 int _pow_recursion(int x, int y)
@@ -17,7 +19,7 @@ int _pow_recursion(int x, int y)
 
 	else if (y >= 0 && y <= 0)
 		return (1);
-	
+
 	num *= _pow_recursion(x, y - 1);
 		return (num);
 }
