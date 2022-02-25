@@ -4,10 +4,10 @@
 #include <stdio.h>
 
 /**
-* main - a program that adds positive numbers
-* @argc: counter
-* @argv: value
-* Return: 0 if its success 1 if not
+* main - agrega numeros positivos
+* @argc: contador
+* @argv: valor
+* Return: 0 si pasa 1 si no
 */
 int main(int argc, char *argv[])
 {

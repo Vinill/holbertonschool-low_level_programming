@@ -10,16 +10,38 @@
  *Return: num
  */
 
-int _pow_recursion(int x, int y)
+int _funcion(int num, root)
 {
-	int num = x;
+	int num = n;
 
-	if (y < 0)
+	if ((root * root) == num)
+		return (root);
+
+	if (root == num / 2)
 		return (-1);
 
-	else if (y >= 0 && y <= 0)
-		return (1);
+	return (_sqrt_recursion(num, root + 1));
+/**
+ *  *_pow_recursion - Funcion that return the factorial num
+ *   *
+ *    *@x: a variable
+ *     *
+ *      *@y: a variable
+ *       *
+ *        *Return: num
+ *         */
 
-	num *= _pow_recursion(x, y - 1);
-		return (num);
+
+
+int _sqrt_recursion(int n)
+{
+	int root = 0;
+
+	if (n < 0)
+		return (-1);
+
+	if (n == 1)
+		return(1);
+
+		return (_funcion(num, root + 1));
 }
