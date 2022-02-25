@@ -1,32 +1,32 @@
-#include <stdio.h>
+nclude "main.h"
 #include <stdlib.h>
-#include "main.h"
-
+#include <string.h>
+#include <stdio.h>
 /**
- *main - Funcion para multipicar 2 num
- *
- *@argc: Numero de atributos
- *
- *@argv: atributo a printear
- *
- *Return: result
- *
- */
+* main - a program that adds positive numbers
+* @argc: counter
+* @argv: value
+* Return: 0 if its success 1 if not
+*/
 int main(int argc, char *argv[])
 {
-        int num1, num2, res;
+	int a, b, sum = 0;
 
-        if (argc != 3)
-        {
-                printf("Error\n");
-                return (1);
-        }
-
-        num1 = atoi(argv[1]);
-        num2 = atoi(argv[2]);
-        res = num1 * num2;
-
-        printf("%d\n", res);
-
-        return(0);
+	for (a = 1; a < argc; a++)
+	{
+		for (b = 0; b < (int)strlen(argv[a]); b++)
+		{
+			if (argv[a][b] >= 48 &&  argv[a][b] <= 57)
+			{
+			}
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		sum += atoi(argv[a]);
+	}
+	printf("%d\n", sum);
+	return (0);
 }
