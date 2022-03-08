@@ -1,4 +1,4 @@
-#ifndef FUNCTION_LIKE_MACRO_H
+iifndef FUNCTION_LIKE_MACRO_H
 
 #define FUNCTION_LIKE_MACRO_H
 
@@ -13,6 +13,6 @@
  *	that computes the absolute value of a number x
  */
 
-#define ABS(x) ((x) < 0 ? (-x) : (x))
+#define ABS(x) ((x) < 0 ? -(x) : (x))
 
 #endif
