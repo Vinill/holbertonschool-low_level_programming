@@ -30,14 +30,3 @@ list_t *add_node(list_t **head, const char *str)
 
 	return (new);
 }
-/**
-unsigned int _str_len(const char *string)
-{
-	unsigned int i = 0;
-
-	while (string[i] != '\0')
-		i++;
-
-	return (i);
-}
-*/
