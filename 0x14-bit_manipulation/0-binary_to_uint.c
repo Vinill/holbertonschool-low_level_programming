@@ -3,9 +3,9 @@
 /**
  * binary_to_uint - Function that converts a binary number to an unsigned int
  *
- *@b: Poiter of type const char
+ * @b: Poiter of type const char
  *
- *Return: Num
+ * Return: Num
  */
 
 unsigned int binary_to_uint(const char *b)
