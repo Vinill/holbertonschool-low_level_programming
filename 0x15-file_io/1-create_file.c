@@ -2,13 +2,13 @@
 
 /**
  * create_file - Function that reads a text file
- * 	and prints it to the POSIX standard output
+ *	and prints it to the POSIX standard output
  *
- *@filname: Const var of type char
+ *@filename: Const var of type char
  *
  *@text_content: Content of the text
  *
- *Return: 
+ *Return: -1
  */
 
 int create_file(const char *filename, char *text_content)
