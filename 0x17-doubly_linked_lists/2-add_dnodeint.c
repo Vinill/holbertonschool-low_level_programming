@@ -2,9 +2,9 @@
 
 /**
  * add_dnodeint -  adds a new node at the beginning of a dlistint_t list.
- * 
+ *
  * @head: A pointer
- * 
+ *
  * @n: The integer for the new node to contain.
  *
  * Return: New node
