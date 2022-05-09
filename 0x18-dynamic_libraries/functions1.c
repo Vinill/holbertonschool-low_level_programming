@@ -80,7 +80,7 @@ int _atoi(char *s)
 {
 	int op = 1;
 	unsigned int n = 0;
-
+	
 	do {
 		if (*s == '-')
 			op *= -1;
