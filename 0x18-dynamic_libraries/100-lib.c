@@ -1,4 +1,10 @@
+#define PY_SSIZE_T_CLEAN
 #include <Python.h>
+#include <stdio.h>
+#include <string.h>
+#include <errno.h>
+#include <limits.h>
+#include <stdlib.h>
 
 int add(int a, int b)
 {
