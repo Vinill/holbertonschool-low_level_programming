@@ -2,13 +2,13 @@
 
 /**
  * hash_table_set - Function that adds an element to the hash table
- * 
+ *
  * @ht: pointer pointing to hash table
- * 
+ *
  * @key: Element key
- * 
+ *
  * @value: Element value
- * 
+ *
  * Return: Returns: 1 if it succeeded, 0 otherwise
  **/
 
