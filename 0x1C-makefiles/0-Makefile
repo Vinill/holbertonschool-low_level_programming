@@ -1,3 +1,2 @@
-#Compile all files .c
 all: school.c main.c
         gcc main.c shool.c -o school
