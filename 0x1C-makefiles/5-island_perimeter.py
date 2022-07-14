@@ -6,6 +6,7 @@ def island_perimeter(grid):
     Comments
     """
     row_num = len(grid)
+
     if row_num == 0 or len(grid[0]) == 0:
         return 0
 
